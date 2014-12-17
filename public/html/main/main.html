@@ -30,7 +30,7 @@
                     <div class="list-group">
                         <a ng-href="/#/board/{{list.division+'/' +list._id}}" class="list-group-item animate-repeat" ng-class="getColor($index)"
                            ng-repeat="list in boardList | filter: searchText" ng-if="$index < 9">
-                            [{{list.division}}]{{list.title | limitAndJjum:100}}
+                            [{{list.division}}] {{list.title | limitAndJjum:100}}
                             <div class="reg-date">
                                 {{list.regDt | date : 'yyyy-MM-dd'}}
                             </div>
