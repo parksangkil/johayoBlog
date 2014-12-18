@@ -569,6 +569,10 @@ p {
     animation: flying2-from-right 600ms;
 }
 
+.board-comment-count {
+    color: orangered
+}
+
 .board-detail {
     -webkit-animation: flying-from-right 600ms;
     animation: flying-from-right 600ms;

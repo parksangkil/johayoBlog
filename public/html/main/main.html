@@ -31,6 +31,7 @@
                         <a ng-href="/#/board/{{list.division+'/' +list._id}}" class="list-group-item animate-repeat" ng-class="getColor($index)"
                            ng-repeat="list in boardList | filter: searchText" ng-if="$index < 9">
                             <span style="font-weight: 700">[{{list.division}}]</span> {{list.title | limitAndJjum:100}}
+                            <span class="board-comment-count" ng-if="list.commentList.length > 0">({{list.commentList.length}})</span>
                             <div class="reg-date">
                                 {{list.regDt | date : 'yyyy-MM-dd'}}
                             </div>
