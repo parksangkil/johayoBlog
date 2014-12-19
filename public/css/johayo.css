@@ -441,7 +441,6 @@ section > article {
 /* 시계 start */
 .johayo-circle {
     border: 8px solid #fff;
-    background-color: #B2AC78;
 }
 
 .johayo-face:after, .johayo-hour, .johayo-minute, .johayo-second {
@@ -708,7 +707,6 @@ p {
 }
 
 .clock {
-    background-color: #B2AC78;
     border-radius: 5px;
     padding: 10px;
 }
